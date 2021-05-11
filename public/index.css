@@ -1,6 +1,8 @@
 body {
     margin: 0; 
       font-family: 'Montserrat';font-size: 1.125rem;
+      width: 100%;
+      display: grid;
     }
 #barreMenu{
     display: flex;
@@ -36,20 +38,26 @@ padding-right: 0.0625rem;
     color: #152339; 
   }
   a {
-      
     text-decoration: none;
     float: right;
   text-align: center;
   padding: 0.875rem 1rem;
   }
+  .links > a {
+    text-decoration: none;      
+  color: #152339; 
+  }
   a:visited {  
+    text-decoration: none;
     color: #152339; 
    }
    a:hover{
+    text-decoration: none;
     font-weight: bold;
      color: #123f89;
    }
    a.name {
+    text-decoration: none;
     color:#152339;  
     float: left;
     padding-top: 1.875rem;
@@ -59,6 +67,7 @@ padding-right: 0.0625rem;
   }
   a.name:hover
   {
+    text-decoration: none;
     font-weight: bolder;
      color: #123f89;
   }
@@ -267,12 +276,14 @@ padding-right: 0.0625rem;
    }
 
    a.namef {
+    text-decoration: none;
     color:#FEFEFE;  
     font-weight: bold;
     font-size: 3.15rem;
   }
   a.namef:hover
   {
+    text-decoration: none;
     font-weight: bolder;
      color: #c4dcee;
   }
